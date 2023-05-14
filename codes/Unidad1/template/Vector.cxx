@@ -92,7 +92,7 @@ int main()
     
     v2.set(0,1);
     v2.set(1,1);
-
+    
     auto v3=v1+v2;
     cout<<v3.get(0)<<"  "<<v3.get(1)<<endl;
     v3=v1-v2;

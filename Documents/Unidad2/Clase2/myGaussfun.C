@@ -13,7 +13,7 @@ void myGaussfun() {
 
   //Defin a histogram
   TH1F *myh1 = new TH1F("myh1","myh1",100,-3,3);
-  myh1->FillRandom("gaus",10000);
+  myh1->FillRandom("gauss",10000);
 
   // Create a TF1 object using the function defined above.
   // The last three parameters specify the number of parameters for the function.
